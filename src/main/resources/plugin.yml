@@ -1,0 +1,14 @@
+name: DragonDash
+main: com.example.dragondash.DragonDash
+version: 1.0.0
+api-version: 1.21
+
+commands:
+  dragondash:
+    description: Give Dragon Dash stick
+    usage: /dragondash
+    permission: dragondash.give
+
+permissions:
+  dragondash.give:
+    default: op
